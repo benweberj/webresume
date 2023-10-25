@@ -1,0 +1,9 @@
+PATCH NOTES
+------------------------------
+resume -> webresume
+
+- overall restyle, fullscreen layout, pages animate and fade into one another with the help of Daydreamer (thanks Luke)
+
+- fix WordleSolver on mobile (0 matches returned bc mobile defaulted to uppercase letters)
+
+- add ParticleMesh sketch as landing page background -- nodes disperse when focus is lost
