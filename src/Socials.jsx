@@ -182,14 +182,14 @@ export default function Socials(props) {
                         {icons[name][0]}
                         <p>{name==='Email' ? 'ben.weberj@gmail.com' : name}</p>
                         <button className='icon-arrow'>
-                            <img src='/img/back.png' />
+                            <img src='img/back.png' />
                         </button>
                     </div>
                 )
             })}
 
             <Modal ready={showingResume} onClose={() => setShowingResume(false)}>
-                <img src='/img/resume.png' style={{ width: '100%' }} />
+                <img src='img/resume.png' style={{ width: '100%' }} />
             </Modal>
         </SocialsContainer>
     )

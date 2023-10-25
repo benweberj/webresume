@@ -63,7 +63,7 @@ export default function Modal(props) {
                 <div className='header'>
                     <h3 className='title'>{title}</h3>
                     <button className='close-btn' onClick={e => { e.stopPropagation();  onClose() } }>
-                        <img src='/img/back.png' />
+                        <img src='img/back.png' />
                     </button>
                 </div>
                 <div className='content'>

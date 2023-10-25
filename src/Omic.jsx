@@ -313,7 +313,7 @@ const sites = [
         id: 'os',
         link: 'https://www.devel.omic.ai',
         desc: 'A collaborative suite of genomics analysis tools powered by AI, served through a web app',
-        img: '/img/ml.png',
+        img: 'img/ml.png',
         screenshots: [
             { name: 'OS Signin page', id: 'signin', desc: 'The landing page where you can sign in, create an account, or check out our efforts against Covid-19. On the right is a rotating gallery of GIFs showing off our platform.' },
             { name: 'OS Dashboard, version 1', id: 'dash1', desc: 'This is one version of our homepage, where you can manage your team, navigate to each part of the site, and receive basic activity notifications (right).' },
@@ -342,7 +342,7 @@ const sites = [
         id: 'c19',
         link: 'https://www.c19.ai',
         desc: 'An onboarding site for Omic OS, asking users of all disciplines to contribute to our open-source fight against Covid-19',
-        img: '/img/c19.png',
+        img: 'img/c19.png',
         expired: true,
         screenshots: [
             { name: 'C19.ai landing page', id: 'landing', desc: 'The landing page for c19.ai. This site served as a call to action for everyone, no matter their skills or expertise. The banner cycled through representative images for doctors, biologists, coders, and everyday people.' },
@@ -362,7 +362,7 @@ export default function Omic(props) {
             <BackButton ready={ready && !showing} onClick={() => setPage('landing')} />
             <OmicContainer ready={ready} className='full abs'>
                 <div className='header'>
-                    <img src='/img/omic-logo.png' alt='Omic logo' />
+                    <img src='img/omic-logo.png' alt='Omic logo' />
                     <div className='job-title'>
                         <h1>Omic MD</h1>
                         <p>Lead Web Developer</p>
@@ -386,7 +386,7 @@ export default function Omic(props) {
                 <div className='sites'>
                     {sites.map(site => (
                         <div className='site-entry'>
-                            <h3>{site.name} {site.id === 'os' && <img src='/img/star.png' className='star' alt='Star' />}</h3>
+                            <h3>{site.name} {site.id === 'os' && <img src='img/star.png' className='star' alt='Star' />}</h3>
                             <p>{site.desc}</p>
                             <div className='btns'>
                                 <button className='inline' onClick={() => setShowing(site.id)}>Screenshots</button>

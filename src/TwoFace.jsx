@@ -10,8 +10,8 @@ export default function TwoFace(props) {
     return (
         <Parallax fs>
             <TwoFaceContainer ready={ready} onClick={() => setReal(!real)}>
-                <img width={200} className='real' src='/img/real.png' />
-                <img width={200} className={`vec ${real && 'hide'}`} src='/img/vec-t.png' />
+                <img width={200} className='real' src='img/real.png' />
+                <img width={200} className={`vec ${real && 'hide'}`} src='img/vec-t.png' />
             </TwoFaceContainer>
         </Parallax>
     )

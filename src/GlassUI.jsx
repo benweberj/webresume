@@ -59,7 +59,7 @@ export default function GlassUI(props) {
             </p>
 
             <h2>You can make a simple layout like this: </h2>
-            <img id='layout-example' src='/img/quick-layout.png' />
+            <img id='layout-example' src='img/quick-layout.png' />
 
             <h2>With these 22 lines of code:</h2>
 

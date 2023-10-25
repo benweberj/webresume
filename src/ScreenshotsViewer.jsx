@@ -110,7 +110,7 @@ function ScreenshotsViewer(props) {
                     <div className={`screenshot-entry ${s.id===viewing && 'viewing'}`}>
                         <img
                             onClick={() => setViewing(viewing === s.id ? null : s.id)}
-                            src={`/img/${id}-screenshots/${s.id}.png`}
+                            src={`img/${id}-screenshots/${s.id}.png`}
                             alt={s.alt}
                         />
                         <p>{s.desc}</p>

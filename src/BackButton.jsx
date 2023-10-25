@@ -21,7 +21,7 @@ export default function BackButton(props) {
 
     return (
         <BackButtonContainer onClick={e => { e.stopPropagation(); onClick() }} ready={ready}>
-            <img src='/img/back.png' />
+            <img src='img/back.png' />
         </BackButtonContainer>
     )
 }
